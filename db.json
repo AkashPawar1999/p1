@@ -1,0 +1,201 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "age": "",
+      "email": "",
+      "Mobilenumber": "",
+      "address": "",
+      "id": 2
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "age": "",
+      "email": "",
+      "Mobilenumber": "",
+      "address": "",
+      "id": 3
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "age": "",
+      "email": "",
+      "Mobilenumber": "",
+      "address": "",
+      "id": 4
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "age": "",
+      "email": "",
+      "Mobilenumber": "",
+      "address": "",
+      "id": 5
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "age": "",
+      "email": "",
+      "Mobilenumber": "",
+      "address": "",
+      "id": 6
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "age": "",
+      "email": "",
+      "Mobilenumber": "",
+      "address": "",
+      "id": 7
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "age": "",
+      "email": "",
+      "Mobilenumber": "",
+      "address": "",
+      "id": 8
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "age": "",
+      "email": "",
+      "Mobilenumber": "",
+      "address": "",
+      "id": 9
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "age": "",
+      "email": "",
+      "Mobilenumber": "",
+      "address": "",
+      "id": 10
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "age": "",
+      "email": "",
+      "Mobilenumber": "",
+      "address": "",
+      "id": 11
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "age": "",
+      "email": "",
+      "Mobilenumber": "",
+      "address": "",
+      "id": 12
+    },
+    {
+      "firstName": "aaaa",
+      "lastName": "ssss",
+      "age": 33,
+      "email": "Sincere@april.biz",
+      "Mobilenumber": 2342345354546,
+      "address": "22211 wdd",
+      "id": 13
+    },
+    {
+      "firstName": "sdsaw",
+      "lastName": "ghggh",
+      "age": 11,
+      "email": "naga@gmail.com",
+      "Mobilenumber": "",
+      "address": "",
+      "id": 14
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "age": "",
+      "email": "",
+      "Mobilenumber": "",
+      "address": "",
+      "id": 15
+    },
+    {
+      "firstName": "sdsaw",
+      "lastName": "ghggh",
+      "age": 11,
+      "email": "naga@gmail.com",
+      "Mobilenumber": 7777777777,
+      "address": "Pune",
+      "id": 16
+    },
+    {
+      "firstName": "Akash ",
+      "lastName": "Pawar",
+      "age": 24,
+      "email": "akash",
+      "Mobilenumber": 7777777777,
+      "address": "Pune",
+      "id": 17
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "age": "",
+      "email": "",
+      "Mobilenumber": "",
+      "address": "",
+      "id": 18
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "age": "",
+      "email": "",
+      "Mobilenumber": "",
+      "address": "",
+      "id": 19
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "age": "",
+      "Mobilenumber": "",
+      "address": "",
+      "email": "",
+      "password": "",
+      "id": 20
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "age": "",
+      "Mobilenumber": "",
+      "address": "",
+      "email": "",
+      "password": "",
+      "id": 21
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

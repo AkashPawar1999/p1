@@ -1,5 +1,7 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -10,7 +12,7 @@ export class LoginComponent implements OnInit{
 
   projectForm!: FormGroup<any>;
 
-  constructor() { }
+  constructor(private http: HttpClient, private router: Router) { }
   ngOnInit(): void {
     this.projectForm = new FormGroup({
       'firstName': new FormControl(null),
@@ -21,5 +23,6 @@ export class LoginComponent implements OnInit{
 
   onSave() {
     console.log(this.projectForm.value);
+    this.http.get("http://localhost:3000/posts");
   }
 }

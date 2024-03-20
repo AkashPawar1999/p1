@@ -1,0 +1,33 @@
+[
+    {
+      "firstName": "Leanne",
+      "lastName": "Graham",
+      "age": 12,
+      "Mobilenumber": 1111111111,
+      "address": "Pune",
+      "email": "Sincere@april.biz",
+      "password": 1111111111
+    },
+    {
+      "firstName": "Ervin",
+      "lastName": "Howell",
+      "age": 13,
+      "Mobilenumber": 2222222222,
+      "address": "Mumbai",
+      "email": "Shanna@melissa.tv",
+      "password": 2222222222
+    },
+    {
+      "firstName": "Clementine",
+      "lastName": "Bauch",
+      "age": 14,
+      "Mobilenumber": 3333333333,
+      "address": "Bangalore",
+      "email": "Nathan@yesenia.net",
+      "password": 2222222222
+    },
+    
+    {
+     "signup": []
+    }
+  ]
