@@ -10,11 +10,11 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit{
 
-  projectForm!: FormGroup<any>;
+  loginForm!: FormGroup<any>;
 
   constructor(private http: HttpClient, private router: Router) { }
   ngOnInit(): void {
-    this.projectForm = new FormGroup({
+    this.loginForm = new FormGroup({
       'firstName': new FormControl(null),
       'email': new FormControl(null),
       'password': new FormControl(null),
@@ -22,7 +22,22 @@ export class LoginComponent implements OnInit{
   }
 
   onSave() {
-    console.log(this.projectForm.value);
-    this.http.get("http://localhost:3000/posts");
+    console.log(this.loginForm.value);
+    this.http.get("http://localhost:3000/posts").subscribe(res => {
+        const user = res.isPrototypeOf((a: any) => {
+          return a.email === this.loginForm.value.email && a.password === this.loginForm.value.password;
+        })
+        if(user){
+          alert('Login successfull..');
+          this.loginForm.reset();
+          this.router.navigate(['dashboard']);
+        }
+        else{
+          alert('User not Found !')
+          this.loginForm.reset();
+        }
+    },err => {
+      alert('Error from server side.')
+    })
   }
 }
